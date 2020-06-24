@@ -1,0 +1,195 @@
+.data1{
+    display: none;
+}
+.dropper{
+    display: unset;
+}
+
+:root{
+    --topIcon2: 6px;
+    --heightIcon2: 28px;
+    --heightnavbar: 40px;
+    --topHome: var(--heightnavbar);
+    --heightHome : 135px;
+    --topSection :calc(var(--topHome) + var(--heightHome) + 2px);
+    --heightSection:187px;
+    --topTips:calc(var(--topSection) + var(--heightSection) + 2px);
+    --heightTips :490px;
+    --topExercise:calc(var(--topTips) + var(--heightTips) + 2px);
+    --heightExercise:260px;
+    --topDiet:calc(var(--topExercise) + var(--heightExercise) + 2px);
+    --heightDiet1:198px;
+    --heightDiet2:195px;
+    --topContact:calc(var(--topDiet) + var(--heightDiet1) + var(--heightDiet2) + 4px);
+    --heightContact:45px;
+}
+#toggler{
+    top: var(--topIcon2);
+    height: var(--heightIcon2);
+}
+.data2{
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.data3{
+    font-size: 13px;
+    line-height: 1.4em;
+    margin: 5px 10px;
+}
+.data4 li{
+    font-size: 10px;
+    line-height: 1.4em;
+}
+.data4 h1{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.data5{
+    font-size: 10px;
+    line-height: 2.0em;
+    margin: 20px 4px;
+}
+.data5 h1{
+    font-size: 14px;
+    margin-right: 50px;
+}
+.data6{
+    font-size: 10px;
+    line-height: 1.65em;
+}
+.data6 h1{
+    font-size: 14px;
+}
+.data7{
+    font-size: 10px;
+    line-height: 1.4em;
+}
+
+/* @media only screen and (min-width:230px) and (max-width:240px){
+    .data4 li{
+        font-size: 10px;
+        line-height: 1.6em;
+    }
+    :root{
+        --heightTips:445px;
+        --heightDiet1: 183px;
+    --heightDiet2: 178px;
+    }
+}
+@media only screen and (min-width:240px) and (max-width:250px){
+    .data4 li{
+        font-size: 10px;
+        line-height: 1.6em;
+    }
+    :root{
+        --heightTips:385px;
+        --heightDiet1: 183px;
+        --heightDiet2: 159px;
+    }
+}
+@media only screen and (min-width:220px) and (max-width:230px){
+    .data4 li{
+        font-size: 10px;
+        line-height: 1.6em;
+    }
+    :root{
+        --heightTips:475px;
+        --heightDiet1: 183px;
+        --heightDiet2: 176px;
+    }
+} */
+@media only screen and (min-width:250px) and (max-width:259px){
+    .data4 li{
+        font-size: 10px;
+        line-height: 1.6em;
+    }
+    :root{
+        --heightTips:350px;
+    }
+}
+@media only screen and (min-width:285px) and (max-width:300px){
+    .data4 li{
+        font-size: 10px;
+        line-height: 1.6em;
+    }
+    :root{
+        --heightTips:313px;
+    }
+}
+@media only screen and (min-width:260px) and (max-width:284px){
+    .data4 li{
+        font-size: 10px;
+        line-height: 1.6em;
+    }
+    :root{
+        --heightTips:327px;
+    }
+}
+@media only screen and (min-width:240px) and (max-width:249px){
+    :root{
+        --heightTips:338px;
+    }
+}
+@media only screen and (min-width:230px) and (max-width:239px){
+    :root{
+        --heightTips:392px;
+    }
+}
+@media only screen and (min-width:220px) and (max-width:229px){
+    :root{
+        --heightTips:422px;
+    }
+}
+@media only screen and (min-width:210px) and (max-width:219px){
+    :root{
+        --heightTips:464px;
+    }
+}
+@media only screen and (min-width:202px) and (max-width:300px){
+    :root{
+        --heightExercise:240px;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:294px){
+    :root{
+        --heightDiet1: 151px;
+        --heightDiet2: 130px;
+    }
+}
+@media only screen and (min-width:295px) and (max-width:300px){
+    :root{
+        --heightDiet1: 151px;
+        --heightDiet2: 112px;
+    }
+}
+@media only screen and (min-width:252px) and (max-width:289px){
+    :root{
+        --heightDiet1: 151px;
+        --heightDiet2: 145px;
+    }
+}
+@media only screen and (min-width:236px) and (max-width:246px){
+    :root{
+        --heightDiet1: 166px;
+        --heightDiet2: 175px;
+    }
+}
+@media only screen and (min-width:247px) and (max-width:251px){
+    :root{
+        --heightDiet1: 166px;
+        --heightDiet2: 147px;
+    }
+}
+@media only screen and (min-width:210px) and (max-width:235px){
+    :root{
+        --heightDiet1: 182px;
+        --heightDiet2: 175px;
+    }
+}
+@media only screen and (min-width:202px) and (max-width:209px){
+    :root{
+        --heightDiet1: 199px;
+        --heightDiet2: 177px;
+    }
+}
+

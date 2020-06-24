@@ -1,0 +1,350 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Sriracha', cursive;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body > div{
+    /* border: 0.1px solid red; */
+}
+
+:root{
+    --topIcon2:10px;
+    --heightIcon2:40px;
+    --heightnavbar:60px;
+    --topHome: var(--heightnavbar);
+    --heightHome : 340px;
+    --topSection :calc(var(--topHome) + var(--heightHome) + 2px);
+    --heightSection:427px;
+    --topTips:calc(var(--topSection) + var(--heightSection) + 2px);
+    --heightTips :730px;
+    --topExercise:calc(var(--topTips) + var(--heightTips) + 2px);
+    --heightExercise:541px;
+    --topDiet:calc(var(--topExercise) + var(--heightExercise) + 2px);
+    --heightDiet1:340px;
+    --heightDiet2:337px;
+    --topContact:calc(var(--topDiet) + var(--heightDiet1) + var(--heightDiet2) + 4px);
+    --heightContact:140px;
+}
+/* nav bar section  */
+
+#navbar{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    height: var(--heightnavbar);
+    /* display: block; */
+    position: relative;
+    /* opacity: 0.75; */
+    z-index: 1;
+}
+#navbar li{ 
+    list-style: none;
+}
+.dropper{
+    display: none;
+}
+.data1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.data1 li{
+    margin: 10px 15px;
+    padding: 5px 10px;
+    font-size: 20px;
+
+}
+.data1 li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.data1 li:hover {
+    color: black;
+    background-color: gray;
+    border-radius: 20px;
+}
+.image1{
+    /* display: inline; */
+    filter: invert(100%);
+    height: var(--heightnavbar);
+    width: auto;
+}
+/* #image2{
+    filter: invert(100%);
+    height: var(--heightnavbar);
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 5px;
+} */
+/* #toggler::before{
+    cursor: pointer;
+    background: url("images/toggle\ icon1.jpg") no-repeat center center /cover;
+    z-index: 4;  
+} */
+#toggler{
+    position: absolute;
+    top: var(--topIcon2);
+    right: 6px;
+    height: var(--heightIcon2);
+    width: 110px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Sriracha', cursive;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: auto;
+}
+.list1{
+    /* display: inline-block;
+    width: 100vw;
+    height: auto; */
+    display: grid;
+    grid-template-columns: 1fr 40fr;
+    height: var(--heightnavbar);
+}
+
+/* home section  */
+
+#home{
+    position: absolute;
+    top: var(--topHome);
+    left: 0;
+    width: 100%;
+    height: var(--heightHome);
+    clear: both;
+
+}
+#home::before{
+    content: "";
+    background: url("images/gym5.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--heightHome);
+    z-index: -1;
+    opacity: .9;
+}
+.data2{
+     /* border: 1px solid blue; */
+     display: block;
+     width: auto;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 40px;
+        color: white;
+        text-align: left;
+        line-height: 1.5em;
+}
+#home li{
+    list-style: none;
+}
+
+/* section part of css */
+
+#section{
+    position: absolute;
+    top: var(--topSection);
+    left: 0;
+    height: var(--heightSection);
+    width: 100%;
+
+}
+#section::before{
+    content: "";
+    background: url("images/gym6.jpg") no-repeat center left/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--heightSection);
+    z-index: -1;
+    opacity: .4;
+}
+.data3 li a{
+    text-decoration: none;
+    color: rgb(255, 235, 169);
+}
+.data3 li a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.data3 li{
+    list-style: none;
+    text-align: center;
+}
+.data3 ul{
+    text-align: center;   
+}
+.data3{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin: 5px 25px;
+    font-size: 30px;
+    line-height: 1.4em;
+}
+  
+/* tips section  */
+
+#tips{
+    position: absolute;
+    /* top: 771px; */
+    top: var(--topTips);
+    left: 0;
+    width: 100%;
+    height: var(--heightTips);
+}
+#tips::before{
+    content: "";
+    background: url("images/gym9.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--heightTips);
+    z-index: -1;
+    opacity: .4;
+}
+.data4{
+    margin: 0px 50px;
+    padding: 0px 0px;
+}
+.list4{
+    /* border: 1px solid blue; */
+
+}
+.data4 li{
+    
+    font-size: 20px;
+    line-height: 2.2em;
+
+}
+.data4 h1{
+    margin-left: -30px;
+    font-size: 40px;
+}
+
+/* exercise section of css */
+
+#exercise{
+    position: absolute;
+    top: var(--topExercise);
+    left: 0;
+    width: 100%;
+    height: var(--heightExercise);
+}
+#exercise::before{
+    content: "";
+    background: url("images/gym10.jpg") no-repeat center left/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--heightExercise);
+    z-index: -1;
+    opacity: .5;
+}
+.data5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 20px 40px;
+    padding: 0px 0;
+    font-size: 20px;
+    line-height: 2.3em;
+}
+
+/* diet section  */
+
+#diet{
+    position: absolute;
+    top: var(--topDiet);
+    left: 0;
+    width: 100%;
+    height: var(--heightDiet);
+}
+.part1::before{
+    content: "";
+    background: url("images/gym11.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--heightDiet1);
+    z-index: -1;
+    opacity: .3;
+}
+.part2::before{
+    content: "";
+    background: url("images/gym12.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: calc(var(--heightDiet1) + 2px);
+    left: 0;
+    width: 100%;
+    height: var(--heightDiet2);
+    z-index: -1;
+    opacity: .3;
+}
+.data6{
+    /* margin: 3px 40px;
+    padding: 0px 0;
+    font-size: 28px;
+    line-height: 1.5em; */
+    margin-left: 50px;
+        font-size: 20px;
+        line-height: 2.1em;
+        margin-top: 7px;
+}
+.data6 h1{
+    margin-left: -37px;
+}
+
+/* contact us section of css */
+ 
+#contact{
+    position: absolute;
+    top: var(--topContact);
+    left: 0px;
+    width: 100%;
+    height: var(--heightContact);
+}
+#contact::before{
+    content: "";
+    background: url("images/smoke6.jfif") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--heightContact);
+    z-index: -1;
+    opacity: .5;
+}
+.data7{
+    text-align: center;
+    font-size: 20px;
+    line-height: 2.3em;
+    margin: 3 0;
+    padding: 0 0;
+}
+hr{
+    border-color: black;
+    border-width: 2px;
+}

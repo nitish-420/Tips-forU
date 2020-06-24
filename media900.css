@@ -1,0 +1,39 @@
+#home::before{
+    opacity: 0.7;
+}
+#section::before{
+    opacity: 0.4;
+}
+#tips::before{
+    opacity: 0.4;
+}
+.data3{
+   
+}
+
+
+
+.data2{
+    font-size: 40px;
+    line-height: 1.5em;
+}
+.data3{
+    font-size: 30px;
+    line-height: 1.4em;
+}
+.data4{
+    font-size: 20px;
+    line-height: 2.2em;
+}
+.data5{
+    font-size: 20px;
+    line-height: 2.3em;
+}
+.data6{
+    font-size: 20px;
+    line-height: 2.1em;
+}
+.data7{
+    font-size: 20px;
+    line-height: 2.3em;
+}

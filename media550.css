@@ -1,0 +1,62 @@
+.data1{
+    display: none;
+}
+.dropper{
+    display: unset;
+}
+
+:root{
+    --topIcon2: 10px;
+    --heightIcon2: 35px;
+    --heightnavbar: 55px;
+    --topHome: var(--heightnavbar);
+    --heightHome : 270px;
+    --topSection :calc(var(--topHome) + var(--heightHome) + 2px);
+    --heightSection:260px;
+    --topTips:calc(var(--topSection) + var(--heightSection) + 2px);
+    --heightTips :590px;
+    --topExercise:calc(var(--topTips) + var(--heightTips) + 2px);
+    --heightExercise:415px;
+    --topDiet:calc(var(--topExercise) + var(--heightExercise) + 2px);
+    --heightDiet1:270px;
+    --heightDiet2:260px;
+    --topContact:calc(var(--topDiet) + var(--heightDiet1) + var(--heightDiet2) + 4px);
+    --heightContact:85px;
+}
+#toggler{
+    top: var(--topIcon2);
+    height: var(--heightIcon2);
+}
+.data2{
+    font-size: 30px;
+    line-height: 1.5em;
+}
+.data3{
+    font-size: 20px;
+    line-height: 1.4em;
+    margin: 5px 10px;
+}
+.data4 li{
+    font-size: 16px;
+    line-height: 2.0em;
+}
+.data4 h1{
+    font-size: 25px;
+}
+.data5{
+    font-size: 15px;
+    line-height: 2.3em;
+}
+.data6{
+    font-size: 16px;
+    line-height: 2.1em;
+}
+.data7{
+    font-size: 16px;
+    line-height: 1.8em;
+}
+@media only screen and (min-width:477px) and (max-width:550px){
+    :root{
+        --heightTips:525px;
+    }
+}
