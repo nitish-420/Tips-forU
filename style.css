@@ -127,7 +127,7 @@ body > div{
 }
 #home::before{
     content: "";
-    background: url("images/gym5.jpg") no-repeat center center/cover;
+    background: url("gym5.jpg") no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -136,6 +136,7 @@ body > div{
     z-index: -1;
     opacity: .9;
 }
+
 .data2{
      /* border: 1px solid blue; */
      display: block;
@@ -164,7 +165,7 @@ body > div{
 }
 #section::before{
     content: "";
-    background: url("images/gym6.jpg") no-repeat center left/cover;
+    background: url("gym6.jpg") no-repeat center left/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -213,7 +214,7 @@ body > div{
 }
 #tips::before{
     content: "";
-    background: url("images/gym9.jpg") no-repeat center center/cover;
+    background: url("gym9.jpg") no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -252,7 +253,7 @@ body > div{
 }
 #exercise::before{
     content: "";
-    background: url("images/gym10.jpg") no-repeat center left/cover;
+    background: url("gym10.jpg") no-repeat center left/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -283,7 +284,7 @@ body > div{
 }
 .part1::before{
     content: "";
-    background: url("images/gym11.jpg") no-repeat center center/cover;
+    background: url("gym11.jpg") no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -294,7 +295,7 @@ body > div{
 }
 .part2::before{
     content: "";
-    background: url("images/gym12.jpg") no-repeat center center/cover;
+    background: url("gym12.jpg") no-repeat center center/cover;
     position: absolute;
     top: calc(var(--heightDiet1) + 2px);
     left: 0;
@@ -328,7 +329,7 @@ body > div{
 }
 #contact::before{
     content: "";
-    background: url("images/smoke6.jfif") no-repeat center center/cover;
+    background: url("smoke6.jfif") no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
