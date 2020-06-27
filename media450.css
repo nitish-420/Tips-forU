@@ -22,6 +22,13 @@
     --heightDiet2:222px;
     --topContact:calc(var(--topDiet) + var(--heightDiet1) + var(--heightDiet2) + 4px);
     --heightContact:70px;
+    --heightData1: calc(var(--heightnavbar) - 0px);
+    --heightData2: calc(var(--heightHome) - 20px);
+    --heightData3: calc(var(--heightSection) - 5px);
+    --heightData4: calc(var(--heightTips) - 0px);
+    --heightData5: calc(var(--heightExercise) - 20px);
+    --heightData6: calc(var(--heightDiet) - 10px);
+    --heightData7: calc(var(--heightContact) - 3px);
 }
 #toggler{
     top: var(--topIcon2);
@@ -84,4 +91,43 @@
         --heightDiet1: 201px;
         --heightDiet2: 212px;
     }
+}
+.data1{
+    height:var(--heightData1);
+    width:auto;
+    border: 1px solid white ;
+
+}
+.data2{
+    height:var(--heightData2);
+    width:auto;
+    border: 1px solid white ;
+
+}
+.data3{
+    height:var(--heightData3);
+    width:auto;
+    border: 1px solid white ;
+
+}
+.data4{
+    height:var(--heightData4);
+    width:auto;
+    border: 1px solid white ;
+
+}
+.data5{
+    height:var(--heightData5);
+    width:auto;
+    border: 1px solid white ;
+}
+.data6{
+    height:var(--heightData6);
+    width:auto;
+    border: 1px solid white ;
+}
+.data7{
+    height:var(--heightData7);
+    width:auto;
+    border: 1px solid white ;
 }
