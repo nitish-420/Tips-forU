@@ -101,7 +101,7 @@
 .data2{
     height:var(--heightData2);
     width:auto;
-    border: 1px solid white ;
+/*     border: 1px solid white ; */
 
 }
 .data3{
