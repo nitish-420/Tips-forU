@@ -29,8 +29,16 @@ body > div{
     --topDiet:calc(var(--topExercise) + var(--heightExercise) + 2px);
     --heightDiet1:340px;
     --heightDiet2:337px;
+    --heightDiet:calc(var(--heightDiet1) + var(--heightDiet2) + 2px);
     --topContact:calc(var(--topDiet) + var(--heightDiet1) + var(--heightDiet2) + 4px);
     --heightContact:140px;
+    --heightData1: calc(var(--heightnavbar) - 0px);
+    --heightData2: calc(var(--heightHome) - 20px);
+    --heightData3: calc(var(--heightSection) - 5px);
+    --heightData4: calc(var(--heightTips) - 0px);
+    --heightData5: calc(var(--heightExercise) - 20px);
+    --heightData6: calc(var(--heightDiet) - 10px);
+    --heightData7: calc(var(--heightContact) - 3px);
 }
 /* nav bar section  */
 
@@ -55,6 +63,9 @@ body > div{
     justify-content: center;
     align-items: center;
     /* flex-wrap: wrap; */
+    height: var(--heightData1);
+    width: auto;
+    /* border: 1px solid white; */
 }
 .data1 li{
     margin: 10px 15px;
@@ -139,15 +150,16 @@ body > div{
 
 .data2{
      /* border: 1px solid blue; */
-     display: block;
-     width: auto;
-        height: auto;
+        display: block;
         margin-top: 20px;
         margin-left: 40px;
         font-size: 40px;
         color: white;
         text-align: left;
         line-height: 1.5em;
+        height:var(--heightData2);
+        width:auto;
+        /* border: 1px solid white ; */
 }
 #home li{
     list-style: none;
@@ -200,6 +212,9 @@ body > div{
     margin: 5px 25px;
     font-size: 30px;
     line-height: 1.4em;
+    height:var(--heightData3);
+    width:auto;
+    /* border: 1px solid white ; */
 }
   
 /* tips section  */
@@ -226,6 +241,9 @@ body > div{
 .data4{
     margin: 0px 50px;
     padding: 0px 0px;
+    height:var(--heightData4);
+    width:auto;
+    /* border: 1px solid white ; */
 }
 .list4{
     /* border: 1px solid blue; */
@@ -271,6 +289,9 @@ body > div{
     padding: 0px 0;
     font-size: 20px;
     line-height: 2.3em;
+    height:var(--heightData5);
+    width:auto;
+    /* border: 1px solid white ; */
 }
 
 /* diet section  */
@@ -313,6 +334,9 @@ body > div{
         font-size: 20px;
         line-height: 2.1em;
         margin-top: 7px;
+        height:var(--heightData6);
+    width:auto;
+    /* border: 1px solid white ; */
 }
 .data6 h1{
     margin-left: -37px;
@@ -344,6 +368,9 @@ body > div{
     line-height: 2.3em;
     margin: 3 0;
     padding: 0 0;
+    height:var(--heightData7);
+    width:auto;
+    /* border: 1px solid white ; */
 }
 hr{
     border-color: black;
