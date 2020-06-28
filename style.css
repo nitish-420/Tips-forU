@@ -19,9 +19,9 @@ body > div{
     --heightIcon2:40px;
     --heightnavbar:60px;
     --topHome: var(--heightnavbar);
-    --heightHome : 340px;
+    --heightHome : 185px;
     --topSection :calc(var(--topHome) + var(--heightHome) + 2px);
-    --heightSection:427px;
+    --heightSection:360px;
     --topTips:calc(var(--topSection) + var(--heightSection) + 2px);
     --heightTips :730px;
     --topExercise:calc(var(--topTips) + var(--heightTips) + 2px);
@@ -138,21 +138,21 @@ body > div{
 }
 #home::before{
     content: "";
-    background: url("gym5.jpg") no-repeat center center/cover;
+    background: url("gym5.jpg") no-repeat bottom center/cover;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: var(--heightHome);
     z-index: -1;
-    opacity: .9;
+    opacity: .7;
 }
 
 .data2{
      /* border: 1px solid blue; */
         display: block;
         margin-top: 20px;
-        margin-left: 40px;
+        margin-left: 30px;
         font-size: 40px;
         color: white;
         text-align: left;
@@ -200,7 +200,8 @@ body > div{
     text-align: center;
 }
 .data3 ul{
-    text-align: center;   
+    text-align: center; 
+    margin-bottom: 15px;  
 }
 .data3{
     /* border: 1px solid blue; */
@@ -209,7 +210,7 @@ body > div{
     justify-content: center;
     align-items: center;
     float: right;
-    margin: 5px 25px;
+    margin: 0px 25px;
     font-size: 30px;
     line-height: 1.4em;
     height:var(--heightData3);
