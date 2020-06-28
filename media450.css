@@ -65,7 +65,7 @@
 }
 @media only screen and (min-width:423px) and (max-width:450px){
     :root{
-        --heightTips:521px;
+        --heightTips:534px;
     }
 }
 @media only screen and (min-width:377px) and (max-width:422px){
@@ -73,15 +73,26 @@
         --heightTips:563px;
     }
 }
+@media only screen and (min-width:350px) and (max-width:376px){
+    :root{
+        --heightTips:592px;
+    }
+}
 @media only screen and (min-width:392px) and (max-width:450px){
     :root{
-        --heightDiet1: 197px;
-        --heightDiet2: 193px;
+        --heightDiet1: 207px;
+        --heightDiet2: 196px;
     }
 }
 @media only screen and (min-width:386px) and (max-width:391px){
     :root{
         --heightDiet1: 206px;
         --heightDiet2: 223px;
+    }
+}
+@media only screen and (min-width:350px) and (max-width:385px){
+    :root{
+        --heightDiet1: 232px;
+        --heightDiet2: 221px;
     }
 }
