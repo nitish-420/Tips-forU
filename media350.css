@@ -84,21 +84,27 @@
         --heightSection:199px;
     }
 }
-@media only screen and (min-width:313px) and (max-width:350px){
+@media only screen and (min-width:318px) and (max-width:350px){
     :root{
         --heightDiet1: 211px;
         --heightDiet2: 204px;
     }
 }
-@media only screen and (min-width:306px) and (max-width:312px){
+@media only screen and (min-width:311px) and (max-width:317px){
     :root{
         --heightDiet1: 232px;
         --heightDiet2: 203px;
     }
 }
-@media only screen and (min-width:300px) and (max-width:305px){
+@media only screen and (min-width:307px) and (max-width:310px){
     :root{
         --heightDiet1: 256px;
         --heightDiet2: 203px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:306px){
+    :root{
+        --heightDiet1: 256px;
+        --heightDiet2: 222px;
     }
 }
