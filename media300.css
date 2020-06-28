@@ -10,9 +10,9 @@
     --heightIcon2: 28px;
     --heightnavbar: 40px;
     --topHome: var(--heightnavbar);
-    --heightHome : 135px;
+    --heightHome : 100px;
     --topSection :calc(var(--topHome) + var(--heightHome) + 2px);
-    --heightSection:187px;
+    --heightSection:186px;
     --topTips:calc(var(--topSection) + var(--heightSection) + 2px);
     --heightTips :490px;
     --topExercise:calc(var(--topTips) + var(--heightTips) + 2px);
@@ -30,6 +30,7 @@
 .data2{
     font-size: 15px;
     line-height: 1.5em;
+    margin-left: 10px;
 }
 .data3{
     font-size: 13px;
