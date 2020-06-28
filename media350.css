@@ -21,7 +21,13 @@
     --heightDiet1:216px;
     --heightDiet2:230px;
     --topContact:calc(var(--topDiet) + var(--heightDiet1) + var(--heightDiet2) + 4px);
-    --heightContact:60px;
+    --heightContact:60px;--heightData1: calc(var(--heightnavbar) - 0px);
+    --heightData2: calc(var(--heightHome) - 20px);
+    --heightData3: calc(var(--heightSection) - 5px);
+    --heightData4: calc(var(--heightTips) - 0px);
+    --heightData5: calc(var(--heightExercise) - 20px);
+    --heightData6: calc(var(--heightDiet) - 10px);
+    --heightData7: calc(var(--heightContact) - 3px);
 }
 #toggler{
     top: var(--topIcon2);
@@ -65,7 +71,12 @@
 }
 @media only screen and (min-width:340px) and (max-width:350px){
     :root{
-        --heightTips:460px;
+        --heightTips:464px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:339px){
+    :root{
+        --heightTips:488px;
     }
 }
 @media only screen and (min-width:341px) and (max-width:350px){
@@ -73,15 +84,21 @@
         --heightSection:199px;
     }
 }
-@media only screen and (min-width:312px) and (max-width:350px){
+@media only screen and (min-width:313px) and (max-width:350px){
     :root{
-        --heightDiet1: 195px;
-        --heightDiet2: 192px;
+        --heightDiet1: 211px;
+        --heightDiet2: 204px;
     }
 }
-@media only screen and (min-width:306px) and (max-width:311px){
+@media only screen and (min-width:306px) and (max-width:312px){
     :root{
-        --heightDiet1: 217px;
-        --heightDiet2: 191px;
+        --heightDiet1: 232px;
+        --heightDiet2: 203px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:305px){
+    :root{
+        --heightDiet1: 256px;
+        --heightDiet2: 203px;
     }
 }
