@@ -55,6 +55,7 @@
 .data6{
     font-size: 14px;
     line-height: 1.77em;
+
 }
 .data6 h1{
     font-size: 25px;
@@ -78,19 +79,19 @@
         --heightTips:592px;
     }
 }
-@media only screen and (min-width:392px) and (max-width:450px){
+@media only screen and (min-width:397px) and (max-width:450px){
     :root{
         --heightDiet1: 207px;
         --heightDiet2: 196px;
     }
 }
-@media only screen and (min-width:386px) and (max-width:391px){
+@media only screen and (min-width:391px) and (max-width:396px){
     :root{
         --heightDiet1: 206px;
         --heightDiet2: 223px;
     }
 }
-@media only screen and (min-width:350px) and (max-width:385px){
+@media only screen and (min-width:350px) and (max-width:390px){
     :root{
         --heightDiet1: 232px;
         --heightDiet2: 221px;
