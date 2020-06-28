@@ -65,39 +65,7 @@
     line-height: 1.4em;
 }
 
-/* @media only screen and (min-width:230px) and (max-width:240px){
-    .data4 li{
-        font-size: 10px;
-        line-height: 1.6em;
-    }
-    :root{
-        --heightTips:445px;
-        --heightDiet1: 183px;
-    --heightDiet2: 178px;
-    }
-}
-@media only screen and (min-width:240px) and (max-width:250px){
-    .data4 li{
-        font-size: 10px;
-        line-height: 1.6em;
-    }
-    :root{
-        --heightTips:385px;
-        --heightDiet1: 183px;
-        --heightDiet2: 159px;
-    }
-}
-@media only screen and (min-width:220px) and (max-width:230px){
-    .data4 li{
-        font-size: 10px;
-        line-height: 1.6em;
-    }
-    :root{
-        --heightTips:475px;
-        --heightDiet1: 183px;
-        --heightDiet2: 176px;
-    }
-} */
+
 @media only screen and (min-width:250px) and (max-width:259px){
     .data4 li{
         font-size: 10px;
@@ -175,45 +143,51 @@
     }
 }
 
-@media only screen and (min-width:297px) and (max-width:300px){
+@media only screen and (min-width:300px) and (max-width:300px){
     :root{
         --heightDiet1: 168px;
         --heightDiet2: 123px;
     }
 }
-@media only screen and (min-width:290px) and (max-width:296px){
+@media only screen and (min-width:295px) and (max-width:299px){
     :root{
         --heightDiet1: 167px;
         --heightDiet2: 140px;
     }
 }
-@media only screen and (min-width:252px) and (max-width:289px){
+@media only screen and (min-width:257px) and (max-width:294px){
     :root{
         --heightDiet1: 168px;
         --heightDiet2: 157px;
     }
 }
-@media only screen and (min-width:247px) and (max-width:251px){
+@media only screen and (min-width:252px) and (max-width:256px){
     :root{
         --heightDiet1: 184px;
         --heightDiet2: 158px;
     }
 }
-@media only screen and (min-width:236px) and (max-width:246px){
+@media only screen and (min-width:241px) and (max-width:251px){
     :root{
         --heightDiet1: 199px;
         --heightDiet2: 176px;
     }
 }
-@media only screen and (min-width:210px) and (max-width:235px){
+@media only screen and (min-width:215px) and (max-width:240px){
     :root{
         --heightDiet1: 200px;
         --heightDiet2: 190px;
     }
 }
-@media only screen and (min-width:202px) and (max-width:209px){
+@media only screen and (min-width:207px) and (max-width:214px){
     :root{
         --heightDiet1: 217px;
+        --heightDiet2: 192px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:206px){
+    :root{
+        --heightDiet1: 233px;
         --heightDiet2: 192px;
     }
 }
