@@ -10,9 +10,9 @@
     --heightIcon2: 32px;
     --heightnavbar: 50px;
     --topHome: var(--heightnavbar);
-    --heightHome : 220px;
+    --heightHome : 120px;
     --topSection :calc(var(--topHome) + var(--heightHome) + 2px);
-    --heightSection:260px;
+    --heightSection:250px;
     --topTips:calc(var(--topSection) + var(--heightSection) + 2px);
     --heightTips :575px;
     --topExercise:calc(var(--topTips) + var(--heightTips) + 2px);
@@ -28,8 +28,9 @@
     height: var(--heightIcon2);
 }
 .data2{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5em;
+    margin-left: 15px;
 }
 .data3{
     font-size: 18px;
@@ -95,5 +96,10 @@
     :root{
         --heightDiet1: 232px;
         --heightDiet2: 221px;
+    }
+}
+@media only screen and (min-width:419px) and (max-width:450px){
+    :root{
+        --heightSection:228px;
     }
 }
