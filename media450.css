@@ -6,93 +6,64 @@
 }
 
 :root{
-    --topIcon2: 9px;
-    --heightIcon2: 32px;
-    --heightnavbar: 50px;
+    --topIcon2: 10px;
+    --heightIcon2: 35px;
+    --heightnavbar: 55px;
     --topHome: var(--heightnavbar);
-    --heightHome : 220px;
+    --heightHome : 270px;
     --topSection :calc(var(--topHome) + var(--heightHome) + 2px);
     --heightSection:260px;
     --topTips:calc(var(--topSection) + var(--heightSection) + 2px);
-    --heightTips :575px;
+    --heightTips :590px;
     --topExercise:calc(var(--topTips) + var(--heightTips) + 2px);
-    --heightExercise:330px;
+    --heightExercise:415px;
     --topDiet:calc(var(--topExercise) + var(--heightExercise) + 2px);
-    --heightDiet1:222px;
-    --heightDiet2:222px;
+    --heightDiet1:270px;
+    --heightDiet2:260px;
     --topContact:calc(var(--topDiet) + var(--heightDiet1) + var(--heightDiet2) + 4px);
-    --heightContact:70px;
+    --heightContact:85px;
 }
 #toggler{
     top: var(--topIcon2);
     height: var(--heightIcon2);
 }
 .data2{
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.5em;
 }
 .data3{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.4em;
     margin: 5px 10px;
 }
 .data4 li{
-    font-size: 15px;
-    line-height: 1.93em;
+    font-size: 16px;
+    line-height: 2.0em;
 }
 .data4 h1{
-    font-size: 18px;
-}
-.data5{
-    font-size: 14px;
-    line-height: 2.0em;
-    margin: 20px 10px;
-}
-.data5 h1{
-    font-size: 20px;
-    margin-right: 55px;
-}
-.data6{
-    font-size: 14px;
-    line-height: 1.77em;
-}
-.data6 h1{
     font-size: 25px;
 }
+.data5{
+    font-size: 15px;
+    line-height: 2.3em;
+}
+.data6{
+    font-size: 16px;
+    line-height: 2.1em;
+}
 .data7{
-    font-size: 13px;
-    line-height: 1.7em;
+    font-size: 16px;
+    line-height: 1.8em;
 }
-@media only screen and (min-width:423px) and (max-width:450px){
+@media only screen and (min-width:477px) and (max-width:550px){
     :root{
-        --heightTips:534px;
+        --heightTips:525px;
     }
 }
-@media only screen and (min-width:377px) and (max-width:422px){
+@media only screen and (min-width:450px) and (max-width:550px){
     :root{
-        --heightTips:563px;
+        --heightDiet1: 277px;
+        --heightDiet2: 262px;
     }
 }
-@media only screen and (min-width:350px) and (max-width:376px){
-    :root{
-        --heightTips:592px;
-    }
-}
-@media only screen and (min-width:392px) and (max-width:450px){
-    :root{
-        --heightDiet1: 207px;
-        --heightDiet2: 196px;
-    }
-}
-@media only screen and (min-width:386px) and (max-width:391px){
-    :root{
-        --heightDiet1: 206px;
-        --heightDiet2: 223px;
-    }
-}
-@media only screen and (min-width:350px) and (max-width:385px){
-    :root{
-        --heightDiet1: 232px;
-        --heightDiet2: 221px;
-    }
-}
+
