@@ -10,9 +10,9 @@
     --heightIcon2:40px;
     --heightnavbar:60px;
     --topHome: var(--heightnavbar);
-    --heightHome : 270px;
+    --heightHome : 155px;
     --topSection :calc(var(--topHome) + var(--heightHome) + 2px);
-    --heightSection:280px;
+    --heightSection:273px;
     --topTips:calc(var(--topSection) + var(--heightSection) + 2px);
     --heightTips :637px;
     --topExercise:calc(var(--topTips) + var(--heightTips) + 2px);
