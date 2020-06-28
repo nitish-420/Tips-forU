@@ -7,9 +7,6 @@
 #tips::before{
     opacity: 0.4;
 }
-#exercise::before{
-    opacity: 0.4;
-}
 
 
 
@@ -36,4 +33,9 @@
 .data7{
     font-size: 20px;
     line-height: 2.3em;
+}
+@media only screen and (min-width: 701px) and (max-width: 714px){
+    :root{
+        --heightSection:397px;
+    }
 }
