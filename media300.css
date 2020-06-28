@@ -113,83 +113,108 @@
         line-height: 1.6em;
     }
     :root{
-        --heightTips:313px;
+        --heightTips:340px;
     }
 }
-@media only screen and (min-width:260px) and (max-width:284px){
+@media only screen and (min-width:267px) and (max-width:284px){
     .data4 li{
         font-size: 10px;
         line-height: 1.6em;
     }
     :root{
-        --heightTips:327px;
+        --heightTips:355px;
     }
 }
-@media only screen and (min-width:240px) and (max-width:249px){
+@media only screen and (min-width:250px) and (max-width:266px){
+    .data4 li{
+        font-size: 10px;
+        line-height: 1.6em;
+    }
     :root{
-        --heightTips:338px;
+        --heightTips:376px;
     }
 }
-@media only screen and (min-width:230px) and (max-width:239px){
+@media only screen and (min-width:247px) and (max-width:249px){
     :root{
-        --heightTips:392px;
+        --heightTips:368px;
+    }
+}
+@media only screen and (min-width:239px) and (max-width:246px){
+    :root{
+        --heightTips:395px;
+    }
+}
+@media only screen and (min-width:230px) and (max-width:238px){
+    :root{
+        --heightTips:453px;
     }
 }
 @media only screen and (min-width:220px) and (max-width:229px){
     :root{
-        --heightTips:422px;
+        --heightTips:481px;
     }
 }
 @media only screen and (min-width:210px) and (max-width:219px){
     :root{
-        --heightTips:464px;
+        --heightTips:523px;
     }
 }
-@media only screen and (min-width:202px) and (max-width:300px){
+@media only screen and (min-width:200px) and (max-width:209px){
+    :root{
+        --heightTips:551px;
+    }
+}
+@media only screen and (min-width:207px) and (max-width:300px){
     :root{
         --heightExercise:240px;
     }
 }
-@media only screen and (min-width:290px) and (max-width:294px){
+@media only screen and (min-width:200px) and (max-width:206px){
     :root{
-        --heightDiet1: 151px;
-        --heightDiet2: 130px;
+        --heightExercise:262px;
     }
 }
-@media only screen and (min-width:295px) and (max-width:300px){
+
+@media only screen and (min-width:297px) and (max-width:300px){
     :root{
-        --heightDiet1: 151px;
-        --heightDiet2: 112px;
+        --heightDiet1: 168px;
+        --heightDiet2: 123px;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:296px){
+    :root{
+        --heightDiet1: 167px;
+        --heightDiet2: 140px;
     }
 }
 @media only screen and (min-width:252px) and (max-width:289px){
     :root{
-        --heightDiet1: 151px;
-        --heightDiet2: 145px;
-    }
-}
-@media only screen and (min-width:236px) and (max-width:246px){
-    :root{
-        --heightDiet1: 166px;
-        --heightDiet2: 175px;
+        --heightDiet1: 168px;
+        --heightDiet2: 157px;
     }
 }
 @media only screen and (min-width:247px) and (max-width:251px){
     :root{
-        --heightDiet1: 166px;
-        --heightDiet2: 147px;
+        --heightDiet1: 184px;
+        --heightDiet2: 158px;
+    }
+}
+@media only screen and (min-width:236px) and (max-width:246px){
+    :root{
+        --heightDiet1: 199px;
+        --heightDiet2: 176px;
     }
 }
 @media only screen and (min-width:210px) and (max-width:235px){
     :root{
-        --heightDiet1: 182px;
-        --heightDiet2: 175px;
+        --heightDiet1: 200px;
+        --heightDiet2: 190px;
     }
 }
 @media only screen and (min-width:202px) and (max-width:209px){
     :root{
-        --heightDiet1: 199px;
-        --heightDiet2: 177px;
+        --heightDiet1: 217px;
+        --heightDiet2: 192px;
     }
 }
 
