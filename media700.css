@@ -14,12 +14,12 @@
     --topSection :calc(var(--topHome) + var(--heightHome) + 2px);
     --heightSection:280px;
     --topTips:calc(var(--topSection) + var(--heightSection) + 2px);
-    --heightTips :625px;
+    --heightTips :637px;
     --topExercise:calc(var(--topTips) + var(--heightTips) + 2px);
     --heightExercise:470px;
     --topDiet:calc(var(--topExercise) + var(--heightExercise) + 2px);
-    --heightDiet1:300px;
-    --heightDiet2:293px;
+    --heightDiet1:309px;
+    --heightDiet2:295px;
     --topContact:calc(var(--topDiet) + var(--heightDiet1) + var(--heightDiet2) + 4px);
     --heightContact:105px;
 }
