@@ -60,3 +60,10 @@
         --heightTips:525px;
     }
 }
+@media only screen and (min-width:450px) and (max-width:550px){
+    :root{
+        --heightDiet1: 277px;
+        --heightDiet2: 262px;
+    }
+}
+
