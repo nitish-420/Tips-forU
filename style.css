@@ -336,6 +336,7 @@ body > div{
         margin-top: 7px;
         height:var(--heightData6);
     width:auto;
+    margin-right: 5px;
     /* border: 1px solid white ; */
 }
 .data6 h1{
